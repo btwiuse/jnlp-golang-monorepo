@@ -3,12 +3,6 @@ FROM golang:1.6.3
 MAINTAINER Nick Maiorsky <nick.maiorsky@shipwire.com>
 
 #
-# PST Timezone & Networking
-#
-RUN ln -sf /usr/share/zoneinfo/PST /etc/localtime \
-    && echo "NETWORKING=yes" > /etc/sysconfig/network
-
-#
 # Jenkins Slave
 #
 
