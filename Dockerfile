@@ -1,6 +1,6 @@
 FROM golang:1.6.3 
 
-MAINTAINER Nick Maiorsky <nick.maiorsky@shipwire.com>
+MAINTAINER Nick Maiorsky <nicolay.maiorsky@ingrammicro.com>
 
 #
 # Jenkins Slave
